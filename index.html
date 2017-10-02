@@ -10,13 +10,26 @@
       <link rel="stylesheet" href="style.css">
     </head>
     <body>
-      <h1>Twitch Tv</h1> 
+      <div class="container">
+        <h1>Twitch Tv</h1>
+        <a href="https://www.twitch.tv/twit" target="_blank" class="stream" id="twit">
+          <h3>Twit(<span id="twit_status"></span>)</h3>
+          <div id="twit_info"></div>
+        </a>
+        <a href="https://www.twitch.tv/ESL_SC2" target="_blank" class="stream" id="ESL_SC2">
+          <h3>ESL_SC2(<span id="ESL_SC2_status"></span>)</h3>
+          <div id="ESL_SC2_info"></div>
+        </a>
+        <a href="https://www.twitch.tv/freecodecamp" target="_blank" class="stream" id="freecodecamp">
+          <h3>FreeCodeCamp(<span id="freecodecamp_status"></span>)</h3>
+          <div id="freecodecamp_info"></div>
+        </a>
+      </div>
 
 
       <!-- jQuery & Bootstrap js & application.js -->
       <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-      <script src="config.js"></script>
       <script src="application.js"></script>
     </body>
   </html>
